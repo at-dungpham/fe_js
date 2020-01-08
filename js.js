@@ -1,12 +1,11 @@
 var a, b, c, str;
 
 function cau_1(a, b) {
-  if (a != b) {
+  if (a !== b) {
     return a + b;
   }
   return a * 3;
 }
-
 /*var cau1 = document.getElementsByClassName("tag-h4")[0];
 	cau1.innerHTML=cau_1(a=parseInt(prompt("nhap a")),b=parseInt(prompt("nhap b")));*/
 
@@ -37,7 +36,7 @@ function cau_3(str) {
     sum += repl1;
   }
   for (var i = 0; i <= 9; i++) {
-    if ((sum + i) % 3 == 0) {
+    if ((sum + i) % 3 === 0) {
       kq += str.replace("*", i) + ",";
     }
   }
@@ -51,7 +50,7 @@ function cau_4(str) {
   var array = cau_3(str).split(",");
   var c = array.length;
   for (var i = 0; i < c; i++) {
-    if (array[i] % 2 == 0) {
+    if (array[i] % 2 === 0) {
       ar += array[i] + ",";
     }
   }
