@@ -6,7 +6,7 @@ function cau_1(a, b) {
   }
   return a * 3;
 }
-/*var cau1 = document.getElementsByClassName("tag-h4")[0];
+/*var cau1 = document.getElementsByClassName("tag-cau1")[0];
 	cau1.innerHTML=cau_1(a=parseInt(prompt("nhap a")),b=parseInt(prompt("nhap b")));*/
 
 function cau_2(a) {
@@ -15,7 +15,7 @@ function cau_2(a) {
   }
   return (a - 19) * 3;
 }
-/*var cau2 = document.getElementsByClassName("tag-h4")[0];
+/*var cau2 = document.getElementsByClassName("tag-cau2")[0];
 	cau2.innerHTML=cau_2(a=parseInt(prompt("nhap a")));*/
 
 /*function cau_3_cach1(str){
